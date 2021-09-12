@@ -1,7 +1,6 @@
 <html>
 <head>
-<title> CS585 Homework Template: HW[x] Student Name [xxx]  </title>
-<style>
+
 <!--
 body{
 font-family: 'Trebuchet MS', Verdana;
@@ -27,7 +26,6 @@ hr{
 margin:20px 0px 20px 0px;
 }
 -->
-</style>
 </head>
 
 <body>

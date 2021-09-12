@@ -34,9 +34,9 @@ margin:20px 0px 20px 0px;
 width="119" height="120"></a>
 </center>
 
-<h1>Assignment 5</h1>
+<h1>ObjectTracking</h1>
 <p> 
- CS 585 HW 5 <br>
+ CS 585<br>
  Jiatong Yin <br>
 Yutong Wang <br>
  Boyi Song <br>

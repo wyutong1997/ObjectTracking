@@ -1,6 +1,7 @@
 # ObjectTracking
 
 ## Problem Definition
+
 <p>
 Current problem is to track multiple objects in video, and our input is frame images of bats and cells: </p>
 <p>We directly used the detection results and segmentation results of bats, and do detection and segmentation of cells on our own code</p>
@@ -8,6 +9,7 @@ Current problem is to track multiple objects in video, and our input is frame im
 </p>
 <p>To run the tracker: python Tracker.py --frames [your_image_path]</p>
 <p>To run the test_greedy: python test_greedy.py --frames [your_image_path]</p>
+
 ## Method and Implementation
 
 <p>1. Do detection and segmentation on bats and cells frames</p>

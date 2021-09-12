@@ -21,12 +21,3 @@ features of segmented objects, among which we care centroid most.</p>
 <p>3. Use alpha/beta filter to predict next position(centroid) and velocity</p>
 <p>We set alpha = beta = 1 to start and call greedy matching algorithm to do matching tasks. However, the matching pairs may not include all the objects since we put a check before matching. Those locations that are not matched will still be given an id but wait for future matching.</p>
 
-
-<p>class: State: to store the object's centroid</p>
-<p>class: Uncertain: to keep object locations that are not sure if they are spurious detections</p>
-<p>class: helper: to implement some functions to calculate distances, draw dots on image and so on.</p>
-<p>function: preprocess_data() to get the list of image frames and centroid of bats and cells</p>
-<p>function: mainComputation() and my_motion_energy() to display the movements</p>
-<p>class: DataAssociation: implement the greedy matching algorithm and store temporary unmatched object locations</p>
-<p>class: ABFilter: init the alpha/beta filter and try to predict next frame locations and velocity.</p>
-
